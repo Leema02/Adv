@@ -6,7 +6,7 @@
     <title>SkinSoft</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
-    <style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">    <style>
 
     </style>
 </head>
@@ -24,9 +24,12 @@
         <a class="nav-link" href="#">Explore</a>
         <a class="nav-link" href="#">Contact</a>
         <hr>
-        <a class="nav-link" href="#">Cart</a>
-        <a class="nav-link" href="#">EN</a>
-        <a class="nav-link" href="#">Logged in as Samer</a>
+        <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i>
+            Cart</a>
+        <a class="nav-link" href="#"><i class="fas fa-globe"></i>
+            EN</a>
+        <a class="nav-link" href="#"><i class="fas fa-user"></i>
+            Logged in as Samer</a>
     </div>
 </nav>
 
@@ -36,7 +39,6 @@
         <div class="header-images">
             <img src="img/BANNER1.JPG" alt="Leaf" class="header-img">
         </div>
-
         <h1 style="font-size: 25px">Learn. Improve. Grow. Succeed</h1>
 
         <p style="text-align: left">Build your skills through job-ready programs and earn<br> your certification to propel your career. </p>
@@ -47,15 +49,22 @@
 <section class="search-section text-center">
     <div class="container">
         <h2>Explore our courses catalogue</h2>
-        <input type="text" class="form-control" placeholder="Search course catalog">
+
+        <div class="search-container">
+            <input type="text" class="form-control search-input" placeholder="Search course catalog">
+            <i class="fas fa-search search-icon" style="color: #cdced0;"></i>
+        </div>
+
         <div class="btn-group">
             <button class="but">Recent Courses</button>
-            <button class="but-cen">Featured Category</button>
+            <button class="but-cen-notd">Featured Category</button>
             <button class="but">Recent Courses</button>
         </div>
+
         <div class="recent-courses">
             <h3>Recent Courses</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, in vehicula nunc in neque sollicitudin, ac cursus tellus semper. Morbi posuere elit mollis erat gravida rhoncus.</p>
+            <button class="but-cen-notd">View all courses</button>
         </div>
     </div>
 </section>
@@ -63,7 +72,6 @@
 <!-- Courses Section -->
 <section class="courses-section">
     <div class="container">
-        <h2 class="text-center">Recent Courses</h2>
         <div class="row">
             <div class="col-md-4">
                 <div class="card mb-4">
