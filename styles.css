@@ -559,17 +559,3 @@ header p {
     border-radius: 10px;
     width: 130px;
 }
-
-.middle-section {
-    background-color: #F1F0EE;
-    position: relative;
-    top: -400px;
-    z-index: 5;
-    height: 280px;
-}
-
-.impressive {
-    color: #909c20;
-}
-
-/*End Middle Section*/
