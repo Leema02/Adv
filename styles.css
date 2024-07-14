@@ -723,3 +723,44 @@ header p {
     padding: 20px 0;
     text-align: center;
 }
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .col-half {
+        width: 100%;
+    }
+
+    .success-story-img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .success-stories-section h2,
+    .contact-section h2 {
+        font-size: 1.5rem;
+        margin-bottom: 50px;
+    }
+
+    .contact-section .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-section input,
+    .contact-section textarea {
+        max-width: 90%;
+    }
+
+    .success-story {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .success-story img {
+        margin: 0 0 10px;
+    }
+
+    .contact-section button {
+        padding: 10px;
+    }
+}
