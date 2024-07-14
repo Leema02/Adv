@@ -572,34 +572,34 @@ header p {
     color: #6c757d;
 }
 .col-md-6 {
-    margin-bottom: 60px; /* Add margin below each column */
+    margin-bottom: 60px;
 }
 .success-story {
     margin-bottom: 20px;
     display: flex;
-    align-items: flex-start; /* Align items to the start */
-    text-align: left; /* Align text to the left */
+    align-items: flex-start;
+    text-align: left;
 }
 
 .success-story-img {
     width: 250px;
     height: 250px;
     border-radius: 50%;
-    margin-right: 20px; /* Space between image and text */
+    margin-right: 20px;
     margin-left: 10px;
-    border: 5px solid white; /* White border */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow */
+    border: 5px solid white ;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .success-story-text {
     display: flex;
-    flex-direction: column; /* Stack items vertically */
+    flex-direction: column;
 }
 
 .success-story a {
-    align-self: flex-end; /* Align the link to the left */
-    color: #6c757d; /* Gray link color */
-    margin-top: 10px; /* Space above the link */
+    align-self: flex-end;
+    color: #6c757d;
+    margin-top: 10px;
     text-decoration: underline;
 }
 
@@ -626,6 +626,7 @@ header p {
     justify-content: space-between;
     align-items: flex-start;
     width: 100%;
+    flex-wrap: wrap;
 }
 
 .col-half {
@@ -649,10 +650,10 @@ header p {
 }
 .contact-section br {
     display: inline-block;
-    height: 5px; /* Height of the line */
-    background-color: #6c757d; /* Your desired color */
-    width: 100%; /* Full width */
-    margin: 5px 0; /* Space around */
+    height: 5px;
+    background-color: #6c757d;
+    width: 100%;
+    margin: 5px 0;
 }
 
 .contact-info {
@@ -676,13 +677,13 @@ header p {
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
-    transition: box-shadow 0.3s; /* Smooth transition */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s;
 }
 
 .contact-section input:focus {
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow on focus */
-    border-color: #909c20; /* Optional: Change border color on focus */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    border-color: #909c20;
 }
 
 .contact-section textarea {
@@ -693,17 +694,17 @@ header p {
     border-radius: 5px;
     border: 1px solid #ccc;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
-    transition: box-shadow 0.3s; /* Smooth transition */
+    transition: box-shadow 0.3s;
 }.contact-section textarea {
      height: 150px; /* Set height for textarea */
  }
 
 .contact-section textarea:focus {
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow on focus */
-    border-color: #909c20; /* Optional: Change border color on focus */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    border-color: #909c20;
 }
 .contact-section button {
-    margin-bottom: 20px; /* Space below the button */
+    margin-bottom: 20px;
     padding: 10px 40px;
     border: none;
     background-color: #909c20;
