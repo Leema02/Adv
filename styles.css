@@ -862,14 +862,16 @@ header p {
 @media (max-width: 768px) {
     .search-icon {
 
-        right: 130px;
+        right: 50px;
     }
     .col-md-4 {
         -ms-flex: 0 0 100%;
         flex: 0 0 100%;
         max-width: 100%;
     }
-
+    .search-section .form-control {
+        width: 80%;
+    }
     .courses-section {
         margin-bottom: 50px;
     }
