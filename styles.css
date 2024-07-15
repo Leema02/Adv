@@ -14,12 +14,14 @@ header h1 {
 }
 
 header p {
+    text-align: left;
     font-size: 1.25rem;
     margin-bottom: 40px;
     color: #6c757d;
 }
 
 .header-images {
+    position: relative;
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -870,6 +872,22 @@ header p {
 
     .courses-section {
         margin-bottom: 50px;
+    }
+    .header-img {
+        width: auto;
+    }
+
+    header h1 {
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-230%);
+        text-align: center;
+    }
+    header p{
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-56%);
+        text-align: center;
     }
 }
 
