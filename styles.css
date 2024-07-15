@@ -879,6 +879,10 @@ header p {
         width: auto;
     }
 
+    .center-text-md{
+        text-align: center;
+    }
+
     header h1 {
         left: 50%;
         top: 50%;
