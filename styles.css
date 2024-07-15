@@ -364,20 +364,35 @@ header p {
 }
 
 .recent-courses {
-    text-align: left;
-    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
 }
 
 .recent-courses h3 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
+    margin: 0;
+    margin-right: 20px;
+    padding: 20px;
+    font-weight: bold;
 }
 
 .recent-courses p {
-    font-size: 1rem;
-    color: #6c757d;
+    margin: 22px;
+    font-size: 14.6px;
+    flex: 1;
 }
 
+.recent-courses .but-cen {
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 11px;
+    padding: 7px 21px;
+}
 /*    These are for buttons without circle  */
 
 .but-cen-notd {
@@ -421,16 +436,15 @@ header p {
 
 .but-cen::after {
     content: '>';
-    /* رمز الفونت أوسم */
+
     font-weight: 900;
     position: absolute;
     right: 10px;
     top: 50%;
     transform: translateY(-50%);
     background-color: #8e9e4d;
-    /* لون الخلفية للدائرة */
     color: white;
-    /* لون الرمز */
+
     border-radius: 50%;
     padding: 5px;
     width: 24px;
@@ -448,9 +462,8 @@ header p {
 
 .but-cen:hover::after {
     background-color: white;
-    /* لون الخلفية للدائرة عند التحويم */
     color: #8e9e4d;
-    /* لون الرمز عند التحويم */
+
 }
 
 
@@ -498,7 +511,7 @@ header p {
     border-radius: 50px;
     padding: 10px 20px;
     padding-right: 40px;
-    /* مساحة لأيقونة البحث */
+
 }
 
 .search-icon {
@@ -762,5 +775,118 @@ header p {
 
     .contact-section button {
         padding: 10px;
+    }
+
+    /*first part  */
+    .search-icon {
+
+        right: 126px;
+    }
+
+
+    .recent-courses {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .recent-courses h3 {
+        margin-bottom: 10px;
+    }
+
+    .recent-courses p {
+        margin: 10px 0;
+    }
+
+    .recent-courses .but-cen {
+        align-self: flex-start;
+    }
+
+
+
+}
+
+@media (max-width: 992px) {
+
+
+    .recent-courses {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .recent-courses h3 {
+        margin-bottom: 10px;
+    }
+
+    .recent-courses p {
+        margin: 10px 0;
+    }
+
+    .recent-courses .but-cen {
+        align-self: flex-start;
+    }
+
+
+
+
+}
+@media (max-width: 1199px) {
+    .search-icon {
+
+        right: 165px;
+    }
+
+    .search-icon {
+
+        right: 219px;
+    }
+}
+
+@media (max-width: 992px) {
+    .search-icon {
+
+        right: 165px;
+    }
+    .col-md-4 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .courses-section {
+        padding: 50px 0px;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .search-icon {
+
+        right: 130px;
+    }
+    .col-md-4 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .courses-section {
+        margin-bottom: 50px;
+    }
+}
+
+
+@media (max-width: 500px) {
+
+    .courses-section {
+        margin-bottom: 350px;
+    }
+}
+
+
+
+
+@media (max-width: 300px) {
+
+    .courses-section {
+        margin-bottom: 650px;
     }
 }
