@@ -778,9 +778,9 @@ header p {
 }
 
 .footer .bottom-right-links {
-    position: absolute;
-    right: 20px;
-    bottom: 20px;
+    position: relative;
+
+    bottom: 80px;
 }
 
 /* Media Queries for Responsiveness */
