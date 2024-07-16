@@ -706,10 +706,11 @@ header p {
 .contact-section form {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: flex-start;
+    margin-left: 80px;
 }
 
-.contact-section input {
+.contact-section input ,.contact-section textarea{
     width: 100%;
     max-width:400px;
     margin-bottom: 20px;
@@ -720,28 +721,15 @@ header p {
     transition: box-shadow 0.3s;
 }
 
-.contact-section input:focus {
+.contact-section input:focus,.contact-section textarea:focus  {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
     border-color: #909c20;
 }
 
 .contact-section textarea {
-    width: 100%;
-    max-width:400px;
-    margin-bottom: 20px;
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
-    transition: box-shadow 0.3s;
-}.contact-section textarea {
      height: 150px; /* Set height for textarea */
  }
 
-.contact-section textarea:focus {
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-    border-color: #909c20;
-}
 .contact-section button {
     margin-bottom: 20px;
     padding: 10px 40px;
