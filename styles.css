@@ -6,10 +6,16 @@ body {
 html {
     overflow-x: hidden;
 }
-.right-corner{
+.right-corner {
     position: absolute;
     right: 80px;
     bottom: 30px;
+}
+.separator-end {
+    height: 5px;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.03);
 }
 .dot{
     height: 10px;
